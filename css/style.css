@@ -1,0 +1,49 @@
+.container {
+    width: 630px;
+    height: 450px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 100px auto;
+    font-family: 'neucha',sans-serif;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.one {
+    background-color: darkgoldenrod;
+    position: relative;
+    z-index: 1;
+}
+
+.two {
+    background-color: darkcyan;
+    position: relative;
+    z-index: 0;
+    top: 100px;
+    right: 50px;
+}
+
+.three {
+    background-color: darkolivegreen;
+    position: relative;
+    z-index: 1;
+    top: 200px;
+    right: 100px;
+}
+
+.four {
+    background-color: darkred;
+    position: relative;
+    z-index: 0;
+    top: 300px;
+    right: 150px;
+}
